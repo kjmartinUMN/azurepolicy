@@ -78,7 +78,7 @@
                 "resources": [
                   {
                     "type": "Microsoft.AnalysisServices/servers/providers/diagnosticSettings",
-                    "apiVersion": "2017-05-01-preview",
+                    "apiVersion": "2021-0501-preview",
                     "name": "[concat(parameters('resourceName'), '/', 'Microsoft.Insights/', parameters('diagnosticsSettingNameToUse'))]",
                     "location": "[parameters('location')]",
                     "dependsOn": [],

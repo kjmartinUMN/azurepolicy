@@ -84,7 +84,7 @@
                 "resources": [
                   {
                     "type": "Microsoft.storage/storageAccounts/blobServices/providers/diagnosticSettings",
-                    "apiVersion": "2017-05-01-preview",
+                    "apiVersion": "2021-0501-preview",
                     "name": "[concat(parameters('resourceName'), '/default/', 'Microsoft.Insights/', parameters('diagnosticsSettingNameToUse'))]",
                     "location": "[parameters('location')]",
                     "dependsOn": [],
@@ -128,7 +128,7 @@
                   },
                   {
                     "type": "Microsoft.storage/storageAccounts/fileServices/providers/diagnosticSettings",
-                    "apiVersion": "2017-05-01-preview",
+                    "apiVersion": "2021-0501-preview",
                     "name": "[concat(parameters('resourceName'), '/default/', 'Microsoft.Insights/', parameters('diagnosticsSettingNameToUse'))]",
                     "location": "[parameters('location')]",
                     "dependsOn": [],
@@ -172,7 +172,7 @@
                   },
                   {
                     "type": "Microsoft.storage/storageAccounts/tableServices/providers/diagnosticSettings",
-                    "apiVersion": "2017-05-01-preview",
+                    "apiVersion": "2021-0501-preview",
                     "name": "[concat(parameters('resourceName'), '/default/', 'Microsoft.Insights/', parameters('diagnosticsSettingNameToUse'))]",
                     "location": "[parameters('location')]",
                     "dependsOn": [],
@@ -216,7 +216,7 @@
                   },
                   {
                     "type": "Microsoft.storage/storageAccounts/queueServices/providers/diagnosticSettings",
-                    "apiVersion": "2017-05-01-preview",
+                    "apiVersion": "2021-0501-preview",
                     "name": "[concat(parameters('resourceName'), '/default/', 'Microsoft.Insights/', parameters('diagnosticsSettingNameToUse'))]",
                     "location": "[parameters('location')]",
                     "dependsOn": [],
@@ -260,7 +260,7 @@
                   },
                   {
                     "type": "Microsoft.storage/storageAccounts/providers/diagnosticSettings",
-                    "apiVersion": "2017-05-01-preview",
+                    "apiVersion": "2021-0501-preview",
                     "name": "[concat(parameters('resourceName'), '/', 'Microsoft.Insights/', parameters('diagnosticsSettingNameToUse'))]",
                     "location": "[parameters('location')]",
                     "dependsOn": [],
