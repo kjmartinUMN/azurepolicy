@@ -78,7 +78,7 @@
                 "resources": [
                   {
                     "type": "Microsoft.KeyVault/vaults/providers/diagnosticSettings",
-                    "apiVersion": "2021-05-01-preview",
+                    "apiVersion": "2020-01-01-preview",
                     "name": "[concat(parameters('resourceName'), '/', 'Microsoft.Insights/', parameters('diagnosticsSettingNameToUse'))]",
                     "location": "[parameters('location')]",
                     "dependsOn": [],
